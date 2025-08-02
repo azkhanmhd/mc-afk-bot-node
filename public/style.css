@@ -1,0 +1,10 @@
+.rc{
+}
+
+.rc p{
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 4px;
+    font-size: 18px;
+    margin-top: -10px;
+    font-family: monospace;
+}
