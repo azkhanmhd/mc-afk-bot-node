@@ -1,0 +1,16 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="rc">
+        <% chatArr.forEach(msg => { %>
+            <p><%= msg %></p>
+        <% }); %>
+        <end id="end"></end>
+    </div>
+    <script>
+        setTimeout(() => {
+            location.reload();
+        }, 1000);
+    </script>
+</body>
